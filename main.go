@@ -11,7 +11,7 @@ import (
 )
 
 func main()  {
-	gin.SetMode(gin.ReleaseMode)
+	// gin.SetMode(gin.ReleaseMode)
 	g := gin.New()
 
 	middlewares := []gin.HandlerFunc{}
