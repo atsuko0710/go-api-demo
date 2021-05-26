@@ -12,14 +12,14 @@ import (
 )
 
 const (
-	B = 1
+	B  = 1
 	KB = 1024 * B
 	MB = 1024 * KB
 	GB = 1024 * MB
 )
 
 // 健康检查
-func HealthCheck(c *gin.Context)  {
+func HealthCheck(c *gin.Context) {
 	message := "OK"
 	c.String(http.StatusOK, message)
 }

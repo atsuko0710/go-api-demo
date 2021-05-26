@@ -8,8 +8,8 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func Load(g *gin.Engine,mw ...gin.HandlerFunc) *gin.Engine {
-	
+func Load(g *gin.Engine, mw ...gin.HandlerFunc) *gin.Engine {
+
 	// 在处理某些请求时可能因为程序bug或者其他异常情况导致程序panic，这时候为了不影响下⼀次请求的调⽤，需要通过gin.Recovery()来恢复API服务器
 	g.Use(gin.Recovery())
 

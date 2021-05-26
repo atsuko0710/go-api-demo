@@ -8,7 +8,7 @@ import (
 )
 
 // 强制浏览器不实用缓存
-func NoCache(c *gin.Context)  {
+func NoCache(c *gin.Context) {
 	c.Header("Cache-Control", "no-cache, no-store, max-age=0, must-revalidate, value")
 	c.Header("Expires", "Thu, 01 Jan 1970 00:00:00 GMT")
 	c.Header("Last-Modified", time.Now().UTC().Format(http.TimeFormat))
@@ -16,7 +16,7 @@ func NoCache(c *gin.Context)  {
 }
 
 // options 请求处理
-func Options(c *gin.Context)  {
+func Options(c *gin.Context) {
 	// 如果是 options不处理
 	if c.Request.Method == "OPTIONS" {
 		c.Next()
@@ -31,7 +31,7 @@ func Options(c *gin.Context)  {
 }
 
 // 安全配置
-func Secure(c *gin.Context)  {
+func Secure(c *gin.Context) {
 	c.Header("Access-Control-Allow-Origin", "*")
 	c.Header("X-Frame-Options", "DENY")
 	c.Header("X-Content-Type-Options", "nosniff")
