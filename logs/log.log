@@ -1,5 +1,38 @@
-{"level":"INFO","timestamp":"2021-05-26 11:36:55.743","file":"go-api-demo/main.go:46","msg":"Start to listening the incoming requests on http address: :8080"}
-{"level":"INFO","timestamp":"2021-05-26 11:36:55.745","file":"go-api-demo/main.go:43","msg":"The router has been deployed successfully."}
-{"level":"INFO","timestamp":"2021-05-26 15:42:24.730","file":"go-api-demo/main.go:46","msg":"Start to listening the incoming requests on http address: :8080"}
-{"level":"INFO","timestamp":"2021-05-26 15:42:24.731","file":"go-api-demo/main.go:61","msg":"Waiting for the router, retry in 1 second."}
-{"level":"INFO","timestamp":"2021-05-26 15:42:25.735","file":"go-api-demo/main.go:43","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-05-27 17:06:26.620","file":"model/init.go:52","msg":"root:123456@tcp(192.168.4.250:3305)/db_apiserver?charset=utf8mb4\u0026parseTime=True\u0026loc=Local"}
+{"level":"INFO","timestamp":"2021-05-27 17:06:26.681","file":"model/init.go:52","msg":":@tcp()/?charset=utf8mb4\u0026parseTime=True\u0026loc=Local"}
+{"level":"ERROR","timestamp":"2021-05-27 17:06:26.682","file":"model/init.go:56","msg":"Database connection failed. Database name: ","data":{"error":"dial tcp 127.0.0.1:3306: connect: connection refused"}}
+{"level":"INFO","timestamp":"2021-05-27 17:06:26.682","file":"go-api-demo/main.go:53","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-05-27 17:06:26.684","file":"go-api-demo/main.go:50","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-05-27 17:08:08.778","file":"config/config.go:62","msg":"Config file changed: /Users/wecut/Documents/go-project/src/go-api-demo/conf/config.yaml"}
+{"level":"INFO","timestamp":"2021-05-27 17:08:10.609","file":"config/config.go:62","msg":"Config file changed: /Users/wecut/Documents/go-project/src/go-api-demo/conf/config.yaml"}
+{"level":"INFO","timestamp":"2021-05-27 17:08:27.922","file":"go-api-demo/main.go:53","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-05-27 17:08:27.923","file":"go-api-demo/main.go:68","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-05-27 17:08:28.929","file":"go-api-demo/main.go:50","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-05-27 17:33:16.342","file":"go-api-demo/main.go:53","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-05-27 17:33:16.342","file":"go-api-demo/main.go:68","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-05-27 17:33:17.344","file":"go-api-demo/main.go:50","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-05-27 17:37:15.042","file":"go-api-demo/main.go:53","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-05-27 17:37:15.042","file":"go-api-demo/main.go:68","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-05-27 17:37:16.045","file":"go-api-demo/main.go:50","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-05-27 17:41:02.776","file":"go-api-demo/main.go:53","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-05-27 17:41:02.777","file":"go-api-demo/main.go:68","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-05-27 17:41:03.780","file":"go-api-demo/main.go:50","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-05-27 17:42:34.155","file":"go-api-demo/main.go:53","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-05-27 17:42:34.156","file":"go-api-demo/main.go:50","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-05-27 17:50:07.858","file":"go-api-demo/main.go:45","msg":"测试."}
+{"level":"INFO","timestamp":"2021-05-27 17:50:07.859","file":"go-api-demo/main.go:54","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-05-27 17:50:07.860","file":"go-api-demo/main.go:51","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-05-27 17:50:22.423","file":"go-api-demo/main.go:53","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-05-27 17:50:22.426","file":"go-api-demo/main.go:50","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-05-27 18:19:11.003","file":"router/router.go:15","msg":"uhku"}
+{"level":"INFO","timestamp":"2021-05-27 18:19:11.004","file":"go-api-demo/main.go:53","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-05-27 18:19:11.006","file":"go-api-demo/main.go:50","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-05-27 18:20:01.927","file":"router/router.go:28","msg":"iiiiii"}
+{"level":"INFO","timestamp":"2021-05-27 18:20:01.928","file":"go-api-demo/main.go:53","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-05-27 18:20:01.930","file":"go-api-demo/main.go:50","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-05-27 18:26:18.349","file":"go-api-demo/main.go:53","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-05-27 18:26:18.350","file":"go-api-demo/main.go:67","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-05-27 18:26:19.353","file":"go-api-demo/main.go:50","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-05-27 18:27:58.666","file":"go-api-demo/main.go:53","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-05-27 18:27:58.667","file":"go-api-demo/main.go:67","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-05-27 18:27:59.670","file":"go-api-demo/main.go:50","msg":"The router has been deployed successfully."}

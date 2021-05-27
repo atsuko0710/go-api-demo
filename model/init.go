@@ -6,6 +6,7 @@ import (
 	"github.com/jinzhu/gorm"
 	"github.com/lexkong/log"
 	"github.com/spf13/viper"
+	_ "github.com/jinzhu/gorm/dialects/mysql"
 )
 
 type Database struct {
