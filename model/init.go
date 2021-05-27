@@ -15,7 +15,7 @@ type Database struct {
 
 var DB *Database
 
-func (db *Database) init() {
+func (db *Database) Init() {
 	DB = &Database{
 		Self:   GetSelfDB(),
 		Docker: GetDockerDB(),

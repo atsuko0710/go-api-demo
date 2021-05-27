@@ -3,10 +3,12 @@ package main
 import (
 	"errors"
 	"go-api-demo/config"
+	"go-api-demo/model"
 	"go-api-demo/router"
-	"github.com/lexkong/log"
 	"net/http"
 	"time"
+
+	"github.com/lexkong/log"
 
 	"github.com/gin-gonic/gin"
 	"github.com/spf13/pflag"
@@ -22,9 +24,14 @@ func main() {
 	// 用户传递的命令行参数解析为对应变量的值
 	pflag.Parse()
 
+	// 初始化配置
 	if err := config.Init(*cfg); err != nil {
 		panic(err)
 	}
+
+	// 数据库初始化
+	model.DB.Init()
+	defer model.DB.Close()
 
 	gin.SetMode(viper.GetString("runmode"))
 	g := gin.New()
