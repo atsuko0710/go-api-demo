@@ -18,7 +18,7 @@ func NoCache(c *gin.Context) {
 // options 请求处理
 func Options(c *gin.Context) {
 	// 如果是 options不处理
-	if c.Request.Method == "OPTIONS" {
+	if c.Request.Method != "OPTIONS" {
 		c.Next()
 	} else {
 		c.Header("Access-Control-Allow-Origin", "*")

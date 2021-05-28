@@ -9,22 +9,22 @@ import (
 	"github.com/lexkong/log"
 )
 
-func Create(c *gin.Context)  {
-	var r struct{
+// Create creates a new user account.
+func Create(c *gin.Context) {
+	var r struct {
 		Username string `json:"username"`
 		Password string `json:"password"`
 	}
 
-	log.Info("dsasdasdsadasdsa")
-
 	var err error
 	if err := c.Bind(&r); err != nil {
-		c.JSON(http.StatusOK, gin.H{"error":errno.ErrBind})
+		c.JSON(http.StatusOK, gin.H{"error": errno.ErrBind})
+		return
 	}
 
 	log.Debugf("username is: [%s], password is [%s]", r.Username, r.Password)
 	if r.Username == "" {
-		err = errno.New(errno.ErrUserNotFound, fmt.Errorf("username can not found in db")).Add("This is add message")
+		err = errno.New(errno.ErrUserNotFound, fmt.Errorf("username can not found in db: xx.xx.xx.xx")).Add("This is add message.")
 		log.Errorf(err, "Get an error")
 	}
 

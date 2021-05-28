@@ -8,41 +8,46 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/lexkong/log"
-
 	"github.com/gin-gonic/gin"
+	"github.com/lexkong/log"
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
 )
 
 var (
-	// 命令行输入配置文件
-	cfg = pflag.StringP("config", "c", "", "server config file path.")
+	cfg = pflag.StringP("config", "c", "", "apiserver config file path.")
 )
 
 func main() {
-	// 用户传递的命令行参数解析为对应变量的值
 	pflag.Parse()
 
-	// 初始化配置
+	// init config
 	if err := config.Init(*cfg); err != nil {
 		panic(err)
 	}
 
-	// 数据库初始化
+	// init db
 	model.DB.Init()
 	defer model.DB.Close()
 
+	// Set gin mode.
 	gin.SetMode(viper.GetString("runmode"))
+
+	// Create the Gin engine.
 	g := gin.New()
 
 	middlewares := []gin.HandlerFunc{}
 
+	// Routes.
 	router.Load(
+		// Cores.
 		g,
+
+		// Middlwares.
 		middlewares...,
 	)
 
+	// Ping the server to make sure the router is working.
 	go func() {
 		if err := pingServer(); err != nil {
 			log.Fatal("The router has no response, or it might took too long to start up.", err)
@@ -54,7 +59,7 @@ func main() {
 	log.Info(http.ListenAndServe(viper.GetString("addr"), g).Error())
 }
 
-// 健康检查自检
+// pingServer pings the http server to make sure the router is working.
 func pingServer() error {
 	for i := 0; i < viper.GetInt("max_ping_count"); i++ {
 		// Ping the server by sending a GET request to `/health`.
