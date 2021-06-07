@@ -1,0 +1,11 @@
+{"level":"INFO","timestamp":"2021-06-07 18:14:14.797","file":"user/create.go:17","msg":"User Create functions called.cle","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2021-06-07 18:18:03.060","file":"go-api-demo/main.go:58","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-06-07 18:18:03.062","file":"go-api-demo/main.go:55","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-06-07 18:18:07.270","file":"user/create.go:17","msg":"User Create functions called.cle","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2021-06-07 18:18:07.374","file":"model/user.go:22","msg":"$2a$10$incIjbKHk0MlLvLF.mcU4OfKFOUHLKFBRCVvrPoD7EfFMGAy47ARG"}
+{"level":"INFO","timestamp":"2021-06-07 18:21:05.898","file":"go-api-demo/main.go:58","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-06-07 18:21:05.902","file":"go-api-demo/main.go:55","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-06-07 18:21:08.788","file":"user/create.go:17","msg":"User Create functions called.cle","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2021-06-07 18:25:25.260","file":"go-api-demo/main.go:58","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-06-07 18:25:25.263","file":"go-api-demo/main.go:55","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-06-07 18:25:30.551","file":"user/create.go:17","msg":"User Create functions called.cle","data":{"X-Request-Id":""}}
