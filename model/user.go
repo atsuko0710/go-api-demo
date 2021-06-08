@@ -1,7 +1,9 @@
 package model
 
 import (
+	"fmt"
 	"go-api-demo/pkg/auth"
+	"go-api-demo/pkg/constvar"
 
 	validator "github.com/go-playground/validator/v10"
 )
@@ -19,6 +21,43 @@ func (c *UserModel) TableName() string {
 // 插入数据
 func (u *UserModel) Create() error {
 	return DB.Self.Create(&u).Error
+}
+
+// 删除数据
+func DeleteUser(id uint64) error {
+	user := UserModel{}
+	user.BaseModel.Id = id
+	return DB.Self.Delete(&user).Error
+}
+
+func (u *UserModel) Update() error {
+	return DB.Self.Save(&u).Error
+}
+
+func GetUser(username string) (*UserModel, error) {
+	u := &UserModel{}
+	d := DB.Self.Where("username=?", username).First(&u)
+	return u, d.Error
+}
+
+func ListUser(username string, offset int, limit int) ([]*UserModel, uint64, error) {
+	if limit == 0 {
+		limit = constvar.DefaultLimit
+	}
+
+	users := make([]*UserModel, 0)
+	var count uint64
+
+	where := fmt.Sprintf("username like '%%%s%%'", username)
+	if err := DB.Self.Model(&UserModel{}).Where(where).Count(&count).Error; err != nil {
+		return users, count, err
+	}
+
+	if err := DB.Self.Where(where).Offset(offset).Limit(limit).Order("id desc").Find(&users).Error; err != nil {
+		return users, count, err
+	}
+
+	return users, count, nil
 }
 
 func (u *UserModel) Validate() error {

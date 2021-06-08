@@ -9,3 +9,28 @@
 {"level":"INFO","timestamp":"2021-06-07 18:25:25.260","file":"go-api-demo/main.go:58","msg":"Start to listening the incoming requests on http address: :8080"}
 {"level":"INFO","timestamp":"2021-06-07 18:25:25.263","file":"go-api-demo/main.go:55","msg":"The router has been deployed successfully."}
 {"level":"INFO","timestamp":"2021-06-07 18:25:30.551","file":"user/create.go:17","msg":"User Create functions called.cle","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2021-06-08 10:32:16.281","file":"go-api-demo/main.go:58","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-06-08 10:32:16.283","file":"go-api-demo/main.go:72","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-06-08 10:32:17.290","file":"go-api-demo/main.go:55","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-06-08 14:24:13.993","file":"go-api-demo/main.go:58","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-06-08 14:24:13.994","file":"go-api-demo/main.go:72","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-06-08 14:24:15.000","file":"go-api-demo/main.go:55","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-06-08 14:24:18.226","file":"user/update.go:17","msg":"User Update functions called.cle","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2021-06-08 14:27:28.908","file":"go-api-demo/main.go:58","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-06-08 14:27:28.909","file":"go-api-demo/main.go:72","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-06-08 14:27:29.911","file":"go-api-demo/main.go:55","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-06-08 14:27:40.021","file":"go-api-demo/main.go:58","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-06-08 14:27:40.024","file":"go-api-demo/main.go:55","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-06-08 14:27:43.753","file":"user/update.go:17","msg":"User Update functions called.cle","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2021-06-08 14:30:13.193","file":"go-api-demo/main.go:58","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-06-08 14:30:13.195","file":"go-api-demo/main.go:55","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-06-08 14:30:15.460","file":"user/update.go:17","msg":"User Update functions called.cle","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2021-06-08 14:50:12.887","file":"go-api-demo/main.go:58","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-06-08 14:50:12.888","file":"go-api-demo/main.go:72","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-06-08 14:50:13.895","file":"go-api-demo/main.go:55","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-06-08 16:25:10.005","file":"go-api-demo/main.go:58","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-06-08 16:25:10.005","file":"go-api-demo/main.go:72","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-06-08 16:25:11.007","file":"go-api-demo/main.go:55","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-06-08 16:29:29.852","file":"go-api-demo/main.go:58","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-06-08 16:29:29.852","file":"go-api-demo/main.go:72","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-06-08 16:29:30.855","file":"go-api-demo/main.go:55","msg":"The router has been deployed successfully."}
