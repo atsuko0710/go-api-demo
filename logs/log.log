@@ -34,3 +34,9 @@
 {"level":"INFO","timestamp":"2021-06-08 16:29:29.852","file":"go-api-demo/main.go:58","msg":"Start to listening the incoming requests on http address: :8080"}
 {"level":"INFO","timestamp":"2021-06-08 16:29:29.852","file":"go-api-demo/main.go:72","msg":"Waiting for the router, retry in 1 second."}
 {"level":"INFO","timestamp":"2021-06-08 16:29:30.855","file":"go-api-demo/main.go:55","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-06-08 18:14:04.206","file":"go-api-demo/main.go:61","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-06-08 18:14:04.207","file":"go-api-demo/main.go:75","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-06-08 18:14:05.211","file":"go-api-demo/main.go:58","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-06-08 18:14:44.476","file":"user/create.go:17","msg":"User Create functions called.cle","data":{"X-Request-Id":"27947eb1-fef6-4cbc-8f15-d952a0d63050"}}
+{"level":"ERROR","timestamp":"2021-06-08 18:14:44.670","file":"middleware/logging.go:61","msg":"response body can not unmarshal to model.Response struct, body: ``","data":{"error":"unexpected end of JSON input"}}
+{"level":"INFO","timestamp":"2021-06-08 18:14:44.670","file":"middleware/logging.go:69","msg":"193.646ms     | 127.0.0.1    | POST /v1/user | {code: 10001, message: unexpected end of JSON input}"}
