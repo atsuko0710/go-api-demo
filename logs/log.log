@@ -40,3 +40,40 @@
 {"level":"INFO","timestamp":"2021-06-08 18:14:44.476","file":"user/create.go:17","msg":"User Create functions called.cle","data":{"X-Request-Id":"27947eb1-fef6-4cbc-8f15-d952a0d63050"}}
 {"level":"ERROR","timestamp":"2021-06-08 18:14:44.670","file":"middleware/logging.go:61","msg":"response body can not unmarshal to model.Response struct, body: ``","data":{"error":"unexpected end of JSON input"}}
 {"level":"INFO","timestamp":"2021-06-08 18:14:44.670","file":"middleware/logging.go:69","msg":"193.646ms     | 127.0.0.1    | POST /v1/user | {code: 10001, message: unexpected end of JSON input}"}
+{"level":"INFO","timestamp":"2021-06-09 17:37:30.140","file":"go-api-demo/main.go:61","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-06-09 17:37:30.141","file":"go-api-demo/main.go:75","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-06-09 17:37:31.148","file":"go-api-demo/main.go:58","msg":"The router has been deployed successfully."}
+{"level":"ERROR","timestamp":"2021-06-09 17:37:35.812","file":"middleware/logging.go:61","msg":"response body can not unmarshal to model.Response struct, body: ``","data":{"error":"unexpected end of JSON input"}}
+{"level":"INFO","timestamp":"2021-06-09 17:37:35.813","file":"middleware/logging.go:69","msg":"183.327ms     | 127.0.0.1    | POST /login | {code: 10001, message: unexpected end of JSON input}"}
+{"level":"INFO","timestamp":"2021-06-09 18:01:58.007","file":"go-api-demo/main.go:61","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-06-09 18:01:58.010","file":"go-api-demo/main.go:58","msg":"The router has been deployed successfully."}
+{"level":"ERROR","timestamp":"2021-06-09 18:02:02.367","file":"middleware/logging.go:61","msg":"response body can not unmarshal to model.Response struct, body: ``","data":{"error":"unexpected end of JSON input"}}
+{"level":"INFO","timestamp":"2021-06-09 18:02:02.367","file":"middleware/logging.go:69","msg":"139.531ms     | 127.0.0.1    | POST /login | {code: 10001, message: unexpected end of JSON input}"}
+{"level":"INFO","timestamp":"2021-06-09 18:03:28.209","file":"go-api-demo/main.go:61","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-06-09 18:03:28.210","file":"go-api-demo/main.go:75","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-06-09 18:03:29.215","file":"go-api-demo/main.go:58","msg":"The router has been deployed successfully."}
+{"level":"ERROR","timestamp":"2021-06-09 18:03:32.178","file":"middleware/logging.go:61","msg":"response body can not unmarshal to model.Response struct, body: ``","data":{"error":"unexpected end of JSON input"}}
+{"level":"INFO","timestamp":"2021-06-09 18:03:32.178","file":"middleware/logging.go:69","msg":"157.827ms     | 127.0.0.1    | POST /login | {code: 10001, message: unexpected end of JSON input}"}
+{"level":"INFO","timestamp":"2021-06-09 18:04:05.684","file":"go-api-demo/main.go:61","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-06-09 18:04:05.694","file":"go-api-demo/main.go:58","msg":"The router has been deployed successfully."}
+{"level":"ERROR","timestamp":"2021-06-09 18:04:08.200","file":"middleware/logging.go:61","msg":"response body can not unmarshal to model.Response struct, body: ``","data":{"error":"unexpected end of JSON input"}}
+{"level":"INFO","timestamp":"2021-06-09 18:04:08.200","file":"middleware/logging.go:69","msg":"102.286ms     | 127.0.0.1    | POST /login | {code: 10001, message: unexpected end of JSON input}"}
+{"level":"INFO","timestamp":"2021-06-09 18:07:57.283","file":"go-api-demo/main.go:61","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-06-09 18:07:57.284","file":"go-api-demo/main.go:75","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-06-09 18:07:58.289","file":"go-api-demo/main.go:58","msg":"The router has been deployed successfully."}
+{"level":"ERROR","timestamp":"2021-06-09 18:08:41.911","file":"middleware/logging.go:61","msg":"response body can not unmarshal to model.Response struct, body: ``","data":{"error":"unexpected end of JSON input"}}
+{"level":"INFO","timestamp":"2021-06-09 18:08:41.912","file":"middleware/logging.go:69","msg":"195µs         | 127.0.0.1    | GET /v1/user/dadan | {code: 10001, message: unexpected end of JSON input}"}
+{"level":"ERROR","timestamp":"2021-06-09 18:09:33.858","file":"middleware/logging.go:61","msg":"response body can not unmarshal to model.Response struct, body: ``","data":{"error":"unexpected end of JSON input"}}
+{"level":"INFO","timestamp":"2021-06-09 18:09:33.860","file":"middleware/logging.go:69","msg":"288µs         | 127.0.0.1    | GET /v1/user/dadan | {code: 10001, message: unexpected end of JSON input}"}
+{"level":"ERROR","timestamp":"2021-06-09 18:09:35.559","file":"middleware/logging.go:61","msg":"response body can not unmarshal to model.Response struct, body: ``","data":{"error":"unexpected end of JSON input"}}
+{"level":"INFO","timestamp":"2021-06-09 18:09:35.560","file":"middleware/logging.go:69","msg":"169µs         | 127.0.0.1    | GET /v1/user/dadan | {code: 10001, message: unexpected end of JSON input}"}
+{"level":"ERROR","timestamp":"2021-06-09 18:09:48.416","file":"middleware/logging.go:61","msg":"response body can not unmarshal to model.Response struct, body: ``","data":{"error":"unexpected end of JSON input"}}
+{"level":"INFO","timestamp":"2021-06-09 18:09:48.416","file":"middleware/logging.go:69","msg":"106µs         | 127.0.0.1    | GET /v1/user/dadan | {code: 10001, message: unexpected end of JSON input}"}
+{"level":"ERROR","timestamp":"2021-06-09 18:09:49.352","file":"middleware/logging.go:61","msg":"response body can not unmarshal to model.Response struct, body: ``","data":{"error":"unexpected end of JSON input"}}
+{"level":"INFO","timestamp":"2021-06-09 18:09:49.352","file":"middleware/logging.go:69","msg":"78µs          | 127.0.0.1    | GET /v1/user/dadan | {code: 10001, message: unexpected end of JSON input}"}
+{"level":"ERROR","timestamp":"2021-06-09 18:10:00.943","file":"middleware/logging.go:61","msg":"response body can not unmarshal to model.Response struct, body: ``","data":{"error":"unexpected end of JSON input"}}
+{"level":"INFO","timestamp":"2021-06-09 18:10:00.943","file":"middleware/logging.go:69","msg":"117µs         | 127.0.0.1    | GET /v1/user/dadan | {code: 10001, message: unexpected end of JSON input}"}
+{"level":"ERROR","timestamp":"2021-06-09 18:10:06.469","file":"middleware/logging.go:61","msg":"response body can not unmarshal to model.Response struct, body: ``","data":{"error":"unexpected end of JSON input"}}
+{"level":"INFO","timestamp":"2021-06-09 18:10:06.469","file":"middleware/logging.go:69","msg":"132.265ms     | 127.0.0.1    | POST /login | {code: 10001, message: unexpected end of JSON input}"}
+{"level":"ERROR","timestamp":"2021-06-09 18:14:00.980","file":"middleware/logging.go:61","msg":"response body can not unmarshal to model.Response struct, body: ``","data":{"error":"unexpected end of JSON input"}}
+{"level":"INFO","timestamp":"2021-06-09 18:14:00.980","file":"middleware/logging.go:69","msg":"37.995ms      | 127.0.0.1    | GET /v1/user/dadan | {code: 10001, message: unexpected end of JSON input}"}
