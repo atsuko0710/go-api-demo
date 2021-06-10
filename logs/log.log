@@ -77,3 +77,10 @@
 {"level":"INFO","timestamp":"2021-06-09 18:10:06.469","file":"middleware/logging.go:69","msg":"132.265ms     | 127.0.0.1    | POST /login | {code: 10001, message: unexpected end of JSON input}"}
 {"level":"ERROR","timestamp":"2021-06-09 18:14:00.980","file":"middleware/logging.go:61","msg":"response body can not unmarshal to model.Response struct, body: ``","data":{"error":"unexpected end of JSON input"}}
 {"level":"INFO","timestamp":"2021-06-09 18:14:00.980","file":"middleware/logging.go:69","msg":"37.995ms      | 127.0.0.1    | GET /v1/user/dadan | {code: 10001, message: unexpected end of JSON input}"}
+{"level":"INFO","timestamp":"2021-06-10 09:22:42.583","file":"go-api-demo/main.go:65","msg":"Start to listening the incoming requests on https address: 8081"}
+{"level":"INFO","timestamp":"2021-06-10 09:22:42.584","file":"go-api-demo/main.go:83","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-06-10 09:22:42.584","file":"go-api-demo/main.go:66","msg":"listen tcp: address 8081: missing port in address"}
+{"level":"INFO","timestamp":"2021-06-10 09:22:42.584","file":"go-api-demo/main.go:69","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-06-10 09:22:43.586","file":"go-api-demo/main.go:58","msg":"The router has been deployed successfully."}
+{"level":"ERROR","timestamp":"2021-06-10 09:23:36.919","file":"middleware/logging.go:61","msg":"response body can not unmarshal to model.Response struct, body: ``","data":{"error":"unexpected end of JSON input"}}
+{"level":"INFO","timestamp":"2021-06-10 09:23:36.920","file":"middleware/logging.go:69","msg":"117.832ms     | 127.0.0.1    | POST /login | {code: 10001, message: unexpected end of JSON input}"}
