@@ -37,7 +37,7 @@ func (err *Err) Error() string {
 }
 
 func IsErrUserNotFound(err error) bool {
-	code,_ := DecodeErr(err)
+	code, _ := DecodeErr(err)
 	return code == ErrUserNotFound.Code
 }
 

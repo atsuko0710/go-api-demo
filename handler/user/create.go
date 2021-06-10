@@ -1,4 +1,3 @@
-
 package user
 
 import (
@@ -12,7 +11,14 @@ import (
 	"github.com/lexkong/log/lager"
 )
 
-// Create creates a new user account.
+// @Summary Add new user to the database
+// @Description 增加一个新用户
+// @Tags user
+// @Accept  json
+// @Produce  json
+// @Param user body user.CreateRequest true "Create a new user"
+// @Success 200 {object} user.CreateResponse "{"code":0,"message":"OK","data":{"username":"v"}}"
+// @Router /user [post]
 func Create(c *gin.Context) {
 	log.Info("User Create functions called.cle", lager.Data{"X-Request-Id": util.GetReqID(c)})
 
@@ -39,7 +45,7 @@ func Create(c *gin.Context) {
 		Username: r.Username,
 		Password: r.Password,
 	}
-	
+
 	// 数据验证
 	if err := u.Validate(); err != nil {
 		SendResponse(c, errno.ErrValidation, nil)
@@ -47,13 +53,13 @@ func Create(c *gin.Context) {
 	}
 
 	// 密码加密失败
-	if err:= u.Encrypt(); err != nil{
+	if err := u.Encrypt(); err != nil {
 		SendResponse(c, errno.ErrEncrypt, nil)
 		return
 	}
 
 	// 创建用户
-	if err:= u.Create(); err != nil{
+	if err := u.Create(); err != nil {
 		SendResponse(c, errno.ErrDatabase, nil)
 		return
 	}

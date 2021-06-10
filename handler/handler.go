@@ -13,13 +13,13 @@ type Response struct {
 	Data    interface{} `json:"data"`
 }
 
-func SendResponse(c *gin.Context, err error, data interface{})  {
+func SendResponse(c *gin.Context, err error, data interface{}) {
 	code, message := errno.DecodeErr(err)
 
 	// 固定返回格式
 	c.JSON(http.StatusOK, Response{
-		Code: code,
+		Code:    code,
 		Message: message,
-		Data: data,
+		Data:    data,
 	})
 }

@@ -52,7 +52,7 @@ func ListUser(username string, offset int, limit int) ([]*model.UserInfo, uint64
 			}
 		}(u)
 	}
-	
+
 	go func() {
 		wg.Wait()
 		close(finished)

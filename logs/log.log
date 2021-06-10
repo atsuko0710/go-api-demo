@@ -84,3 +84,15 @@
 {"level":"INFO","timestamp":"2021-06-10 09:22:43.586","file":"go-api-demo/main.go:58","msg":"The router has been deployed successfully."}
 {"level":"ERROR","timestamp":"2021-06-10 09:23:36.919","file":"middleware/logging.go:61","msg":"response body can not unmarshal to model.Response struct, body: ``","data":{"error":"unexpected end of JSON input"}}
 {"level":"INFO","timestamp":"2021-06-10 09:23:36.920","file":"middleware/logging.go:69","msg":"117.832ms     | 127.0.0.1    | POST /login | {code: 10001, message: unexpected end of JSON input}"}
+{"level":"INFO","timestamp":"2021-06-10 12:10:52.879","file":"go-api-demo/main.go:69","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-06-10 12:10:52.880","file":"go-api-demo/main.go:83","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-06-10 12:10:53.883","file":"go-api-demo/main.go:58","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-06-10 12:16:33.705","file":"go-api-demo/main.go:69","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-06-10 12:16:33.707","file":"go-api-demo/main.go:83","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-06-10 12:16:34.716","file":"go-api-demo/main.go:58","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-06-10 12:19:09.958","file":"go-api-demo/main.go:69","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-06-10 12:19:09.961","file":"go-api-demo/main.go:58","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-06-10 12:21:17.522","file":"go-api-demo/main.go:69","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-06-10 12:21:17.524","file":"go-api-demo/main.go:58","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-06-10 12:21:27.921","file":"go-api-demo/main.go:69","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-06-10 12:21:27.924","file":"go-api-demo/main.go:58","msg":"The router has been deployed successfully."}
